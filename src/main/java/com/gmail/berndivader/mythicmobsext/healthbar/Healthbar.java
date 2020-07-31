@@ -67,8 +67,9 @@ public class Healthbar extends CraftHologram {
 			this.getVisibilityManager().setVisibleByDefault(true);
 		}
 	}
+	
+	
 
-	@Override
 	public boolean update() {
 		if (this.isDeleted())
 			return false;
