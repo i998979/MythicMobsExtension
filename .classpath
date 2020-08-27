@@ -14,7 +14,6 @@
 	<classpathentry kind="lib" path="C:/Users/brian/Desktop/Servers/#DEPENDENCIES/LibsDisguises-10.0.15-Free.jar"/>
 	<classpathentry kind="lib" path="C:/Users/brian/Desktop/Servers/#DEPENDENCIES/MassiveCore.jar"/>
 	<classpathentry kind="lib" path="C:/Users/brian/Desktop/Servers/#DEPENDENCIES/NoCheatPlus.jar"/>
-	<classpathentry kind="lib" path="C:/Users/brian/Desktop/Servers/#DEPENDENCIES/PlaceholderAPI-2.10.7.jar"/>
 	<classpathentry kind="lib" path="C:/Users/brian/Desktop/Servers/#DEPENDENCIES/ProtocolLib.jar"/>
 	<classpathentry kind="lib" path="C:/Users/brian/Desktop/Servers/#DEPENDENCIES/Quests-3.9.5.jar"/>
 	<classpathentry kind="lib" path="C:/Users/brian/Desktop/Servers/#DEPENDENCIES/RPGItems-mc1.15-3.8-103-release.jar"/>
@@ -22,5 +21,6 @@
 	<classpathentry kind="lib" path="C:/Users/brian/Desktop/Servers/#DEPENDENCIES/worldedit-bukkit-7.1.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/brian/Desktop/Servers/#DEPENDENCIES/worldguard-bukkit-7.0.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/brian/Desktop/Servers/#DEPENDENCIES/MobArena.jar"/>
+	<classpathentry kind="lib" path="C:/Users/brian/Desktop/Servers/#DEPENDENCIES/PlaceholderAPI-2.10.8.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
