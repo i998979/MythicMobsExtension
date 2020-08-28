@@ -7,6 +7,7 @@ import java.lang.reflect.Modifier;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.bukkit.Bukkit;
 import org.bukkit.Server;
 import org.bukkit.entity.Creature;
 import org.bukkit.entity.Entity;
@@ -133,9 +134,15 @@ public class NMSUtils extends CompatibilityUtils {
 				ex.printStackTrace();
 				mm_version = 45;
 			}
-
-			class_Drop_getDropMethod = mm_version < 45 ? class_Drop.getMethod("getDrop", String.class)
-					: class_Drop.getMethod("getDrop", String.class, String.class);
+			
+			try {
+				class_Drop_getDropMethod = class_Drop.getMethod("getDrop", String.class);
+			} catch (Exception e) {
+				class_Drop_getDropMethod = class_Drop.getMethod("getDrop", String.class, String.class);
+			}
+			
+			/*class_Drop_getDropMethod = mm_version < 45 ? class_Drop.getMethod("getDrop", String.class)
+					: class_Drop.getMethod("getDrop", String.class, String.class);*/
 
 		} catch (NoSuchFieldException | SecurityException | NoSuchMethodException | ClassNotFoundException e) {
 			e.printStackTrace();
